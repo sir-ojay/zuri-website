@@ -1,0 +1,37 @@
+.footer{
+    /* position: fixed; */
+    /* width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px; */
+ 
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-logo{
+    font-weight: 500;
+}
+.footer-media{
+display: flex;
+flex-direction: row;
+}
+.footer-media li{
+background-color: red;
+padding: 0;
+}
+.footer-media img{
+    width:20%;
+}
+.footer-links, .footer-media{
+list-style: none;
+}
+.footer-font{
+    color: rgb(219, 106, 106);
+}
+.copy{
+    border-top: 1px solid gray;
+}

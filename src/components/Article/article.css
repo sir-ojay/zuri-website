@@ -1,0 +1,10 @@
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.art1, .art2, .art3{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(255, 0, 0, 0.432);
+}

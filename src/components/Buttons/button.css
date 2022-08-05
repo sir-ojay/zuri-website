@@ -1,0 +1,16 @@
+.button a{
+text-decoration: none;
+font-size: 15px;
+}
+.buton{
+    background-color: red;
+    height: 10vh;
+    width: 30vw;
+}
+.buton1{
+    margin-top: 2vh;
+    background-color: transparent;
+        height: 10vh;
+        width: 35vw;
+        border: 1px solid red;
+}
