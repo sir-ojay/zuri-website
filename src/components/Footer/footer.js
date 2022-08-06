@@ -14,12 +14,12 @@ const footer = () => {
             />
           </div>
 
-          <div className="flex-3 ">
+          <div className="flex-3">
             <h3>Links</h3>
-            <a href="https://flutterwave.com/store/zuriteam">
+            <a href="/">
               <p>Store</p>
             </a>
-            <a href="https://blog.zuri.team">
+            <a href="/">
               <p>Blog</p>
             </a>
           </div>

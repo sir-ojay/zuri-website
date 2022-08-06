@@ -35,7 +35,7 @@ const article = () => {
                       support.
                     </p>
                     <h3>
-                      <a href="https://training.zuri.team/">
+                      <a href="/" >
                         I want to be trained &gt;
                       </a>
                     </h3>
@@ -56,7 +56,7 @@ const article = () => {
                     are ready for actual work.{" "}
                   </p>
                   <h3>
-                    <a href="https://internship.zuri.team/">
+                    <a href="/">
                       I want to join the internship &gt;
                     </a>
                   </h3>
@@ -82,7 +82,7 @@ const article = () => {
                       bring the best suited talent for your company
                     </p>
                     <h3>
-                      <a href="https://talent.zuri.team/">
+                      <a href="/">
                         I am looking for talent &gt;
                       </a>
                     </h3>
