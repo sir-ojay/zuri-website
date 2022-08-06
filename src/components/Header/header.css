@@ -1,4 +1,83 @@
-.header{
-    display: block;
-    background-color: red;
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
+
+.btn-div {
+    margin-top: 92px;
+}
+
+.my-btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-red {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+.center-image {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.center-image img {
+    margin: auto;
+}
+
+
+.hero-container {
+    height: 800px;
+    background-image: url("../../Assets/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.btn-div {
+    margin-top: 92px;
 }

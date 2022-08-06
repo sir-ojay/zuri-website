@@ -1,10 +1,80 @@
-.article{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+section.programs {
+    background-color: #fff;
+    overflow: hidden;
 }
-.art1, .art2, .art3{
-    width: 30vw;
-    height: 70vh;
-    background-color: rgba(255, 0, 0, 0.432);
+
+.program-content {
+    padding-top: 0 !important;
+}
+
+.program-content .heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+
+.program-content p.slogan {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+
+}
+
+.container-fluid {
+    margin: 0 auto;
+    /*max-width: 1240px;*/
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.program-card {
+    /*height: 511px;*/
+    width: 100%;
+    /*border: 1px solid red;*/
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+.program-card-zed {
+    position: relative;
+    z-index: 1;
+}
+
+img.card-bg-svg-1 {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+img.card-bg-svg-2 {
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.program-card img {
+    margin-bottom: 48px;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.program-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
 }

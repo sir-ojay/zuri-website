@@ -4,56 +4,83 @@ import "./footer.css"
 const footer = () => {
   return (
     <div className="footer">
-      <section className="footer-details">
-        <div className="footer-logo">Zuri.Team</div>
+      <footer className="footer my-container mx-auto">
+        <div className="footer-flex-container text-center text-md-left">
+          <div className="flex-1">
+            <img
+              alt=""
+              class="footer-logo"
+              src="https://zuri.team/img/zuri-logo-full.svg"
+            />
+          </div>
 
-        <ul className="footer-links">
-          <li>
-            <h2>Links</h2>
-          </li>
-          <li className="footer-font">Store</li>
-          <li className="footer-font">Blog</li>
-        </ul>
+          <div className="flex-3 ">
+            <h3>Links</h3>
+            <a href="https://flutterwave.com/store/zuriteam">
+              <p>Store</p>
+            </a>
+            <a href="https://blog.zuri.team">
+              <p>Blog</p>
+            </a>
+          </div>
 
-        <div className="footer-contact">
-          <h2>Contact</h2>
-          <p>8 Jubilee-CMD Road, Magodo, Lagos State</p>
-          <p className="footer-font">hello@zuri.team</p>
+          <div class="flex-4 address">
+            <h3>Contact</h3>
+            <p>
+              8 Jubliee-CMD Road, Magodo, <br />
+              Lagos State
+            </p>
+            <p>
+              <a href="mailto:hello@zuri.com">hello@zuri.team</a>
+            </p>
+          </div>
+
+          <div class="flex-5">
+            <h3>Follow Us</h3>
+            <div class="contact-icons">
+              <a
+                target="_blank"
+                href="https://web.facebook.com/thezuriteam"
+                rel="noreferrer"
+              >
+                {" "}
+                <img src="https://zuri.team/img/fb.png" alt="fb" />{" "}
+              </a>
+              <a
+                target="_blank"
+                href="https://twitter.com/theZuriTeam"
+                rel="noreferrer"
+              >
+                {" "}
+                <img
+                  src="https://zuri.team/img/twitter.png"
+                  alt="twitter"
+                />{" "}
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/thezuriteam/"
+                rel="noreferrer"
+              >
+                {" "}
+                <img src="https://zuri.team/img/IG.png" alt="IG" />{" "}
+              </a>
+              <a href="/">
+                {" "}
+                <img src="https://zuri.team/img/in.png" alt="LinkedIn" />{" "}
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div className="footer-follow">
-          <h2>Follow Us</h2>
-          <ul className="footer-media">
-            <li>
-              <a href="https://www.facebook.com/thezuriteam">
-                {" "}
-                <img src="https://zuri.team/img/fb.png" alt="fb" />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/theZuriTeam">
-                {" "}
-                <img src="https://zuri.team/img/twitter.png" alt="twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/thezuriteam/">
-                {" "}
-                <img src="https://zuri.team/img/IG.png" alt="IG" />
-              </a>
-            </li>
-            <li>
-              <a href="https://zuri.team/training#">
-                {" "}
-                <img src="https://zuri.team/img/in.png" alt="LinkedIn" />
-              </a>
-            </li>
-          </ul>
+        <div>
+            <hr class="m-3 md-0" />
         </div>
-      </section>
-      <div className="copy">
-        <p>&copy; 2020 ZURI TEAM</p>
-      </div>
+
+        <div class="mx-auto text-center copyright">
+          <p> &copy; 2020 ZURI TEAM </p>
+        </div>
+      </footer>
     </div>
   );
 }
