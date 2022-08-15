@@ -4,16 +4,16 @@ import './header.css'
 const header = () => {
   return (
     <div className="header">
-      <section class="hero-container">
-        <div class="center-image">
+      <section className="hero-container">
+        <div className="center-image">
           <img
             alt=""
-            class="logo-img"
+            className="logo-img"
             src="https://zuri.team/img/zuri-logo-full.svg"
           />
         </div>
 
-        <div class="hero">
+        <div className="hero">
           <h2>Learn, Build, Grow.</h2>
           <p>
             Unlock your Brilliance with our hands-on{" "}
@@ -24,11 +24,11 @@ const header = () => {
             achieve their mission-critical{" "}
             <a href="/">projects and goals</a>
           </p>
-          <div class="btn-div">
+          <div className="btn-div">
             <a href="/">
-              <button class=" my-btn btn-red">I'm new to the Industry</button>
+              <button className=" my-btn btn-red">I'm new to the Industry</button>
             </a>
-            <br class="d-block d-md-none" />
+            <br className="d-block d-md-none" />
             <a href="/">
               <button class=" my-btn btn-red-outline">
                 I need industry experience

@@ -9,7 +9,7 @@ const footer = () => {
           <div className="flex-1">
             <img
               alt=""
-              class="footer-logo"
+              className="footer-logo"
               src="https://zuri.team/img/zuri-logo-full.svg"
             />
           </div>
@@ -24,7 +24,7 @@ const footer = () => {
             </a>
           </div>
 
-          <div class="flex-4 address">
+          <div className="flex-4 address">
             <h3>Contact</h3>
             <p>
               8 Jubliee-CMD Road, Magodo, <br />
@@ -35,9 +35,9 @@ const footer = () => {
             </p>
           </div>
 
-          <div class="flex-5">
+          <div className="flex-5">
             <h3>Follow Us</h3>
-            <div class="contact-icons">
+            <div className="contact-icons">
               <a
                 target="_blank"
                 href="https://web.facebook.com/thezuriteam"
@@ -74,10 +74,10 @@ const footer = () => {
         </div>
 
         <div>
-            <hr class="m-3 md-0" />
+            <hr className="m-3 md-0" />
         </div>
 
-        <div class="mx-auto text-center copyright">
+        <div className="mx-auto text-center copyright">
           <p> &copy; 2020 ZURI TEAM </p>
         </div>
       </footer>

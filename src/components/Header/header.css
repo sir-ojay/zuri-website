@@ -35,6 +35,7 @@
     background-color: #E7332B;
     color: #fff;
 }
+
 .center-image {
     margin: auto;
     display: flex;
@@ -80,4 +81,44 @@
 
 .btn-div {
     margin-top: 92px;
+}
+
+@media (max-width: 900px) {
+    .center-image {
+
+        display: flex;
+        padding-top: 120px;
+
+    }
+.hero-container {
+    height: 730px;
+    background-image: url("../../Assets/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+    .hero {
+        padding-top: 20px;
+
+    }
+
+    .hero h2 {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .btn-red {
+            background-color: #E7332B;
+            color: #fff;
+            margin-left: 26px;
+        }
+    
+       
+    
+        .btn-red-outline {
+            background-color: #fff;
+            color: #E7332B;
+            margin-top: 24px;
+        
+        }
+    
 }

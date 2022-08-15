@@ -5,24 +5,24 @@ import "./article.css";
 const article = () => {
   return (
     <div className="wrapper">
-      <section class="programs">
-        <div class="container-fluid program-content text-center">
-          <h3 class="heading">BY ZURI Team</h3>
-          <p class="slogan">
+      <section className="programs">
+        <div className="container-fluid program-content text-center">
+          <h3 className="heading">BY ZURI Team</h3>
+          <p className="slogan">
             We cater for every level of <br /> expertise and needs in the
             industry.
           </p>
 
-          <div class="container-fluid my-container">
-            <div class="row">
-              <div class="col-lg-4 program-card-zed text-center">
-                <div class="program-card text-left mx-auto m-4 m-lg-0">
+          <div className="container-fluid my-container">
+            <div className="row">
+              <div className="col-lg-4 program-card-zed text-center">
+                <div className="program-card text-left mx-auto m-4 m-lg-0">
                   <img
                     alt=""
-                    class="card-bg-svg-1 d-none d-xl-block"
+                    className="card-bg-svg-1 d-none d-xl-block"
                     src="https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png"
                   />
-                  <div class="zed-content">
+                  <div className="zed-content">
                     <img
                       src="https://zuri.team/img/zuri-training-img.svg"
                       alt=""
@@ -43,11 +43,11 @@ const article = () => {
                 </div>
               </div>
 
-              <div class="col-lg-4 text-center">
-                <div class="program-card text-left mx-auto m-4 m-lg-0">
+              <div className="col-lg-4 text-center">
+                <div className="program-card text-left mx-auto m-4 m-lg-0">
                   <img
                     src="https://zuri.team/img/zuri-internship-img.svg"
-                    alt=""
+                    alt="zuriInternshipImage"
                   />
                   <p>
                     We place you in a work simulation. We give you tasks every
@@ -63,14 +63,14 @@ const article = () => {
                 </div>
               </div>
 
-              <div class="col-lg-4 program-card-zed">
-                <div class="program-card text-left mx-auto m-4 m-lg-0">
+              <div className="col-lg-4 program-card-zed">
+                <div className="program-card text-left mx-auto m-4 m-lg-0">
                   <img
                     alt=""
-                    class="card-bg-svg-2 d-none d-xl-block"
+                    className="card-bg-svg-2 d-none d-xl-block"
                     src="https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png"
                   />
-                  <div class="zed">
+                  <div className="zed">
                     <img
                       src="https://zuri.team/img/zuri-talent-img.svg"
                       alt=""
